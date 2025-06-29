@@ -1,0 +1,78 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
+    background-color: lightgray;
+}
+
+.cabecalho{
+    padding: 30px;
+    text-align: center;
+    background: white;
+}
+
+.menu{
+    background: black;
+    overflow: hidden;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    display: inline-block;
+}
+.menu a:hover{
+    background-color: aliceblue;
+    color: rgb(0, 0, 0);
+}
+
+img{
+    width: 600px;
+    height: 400px;
+    
+}
+
+.linha{
+    display: flex;         
+    padding: 15px 0px;
+}
+.colunaesquerda{
+    padding-right: 15px;
+}
+.carddireito{
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+}
+
+
+.card{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+.perfil{
+    padding-bottom: 20px;
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    height: 250px;
+}
+
+.rodape{
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    text-align: center;
+}
+
+.cardctt{
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    margin-top: 15px;
+}
+
+.perfilctt{
+    padding-bottom: 20px;
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+    height: 500px;
+}
