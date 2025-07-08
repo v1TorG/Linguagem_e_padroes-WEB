@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap");
+
+body{
+    margin: 0;
+    padding: 0;
+    font: 14px "Roboto", sans-serif;
+    color: rgb(54, 54, 54);
+    background: rgb(226, 240, 243);
+    -webkit-font-smoothing: antialiased !important ; /* ? N sei */
+}
+
+.cabecalho{
+    height: 40px;
+    padding: 30px;
+    text-align: left;
+    background-color: rgb(231, 73, 73);
+    overflow: hidden;
+}
+
+.menu{
+    background-color: rgb(12, 133, 77);
+    overflow: hidden;
+}
+
+.menu ul{
+    margin-right: 10%;
+    margin-left: 10%;  
+}
+
+.menu ul, li{
+    padding: 0;
+    margin: 0;
+}
+
+.menu li, a{
+    color: azure;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.menu a {
+    padding: 15px 30px;
+}
+
+.menu a:hover {
+    background-color: aliceblue;
+    color: black;
+}
+
+.row{
+    padding: 10px;
+}
+
+#secao1 {
+    float: left;
+    width: 70%;
+    background-color: rgb(149, 236, 49);
+    margin: 10px;
+}
+
+#secao2 {
+    float: left;
+    width: 25%;
+    background-color: rgb(235, 232, 49);
+    margin: 10px;
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.rodape {
+    padding: 30px;
+    background: rgb(235, 186, 25);
+    text-align: center;
+    margin-top: 20px;
+}
