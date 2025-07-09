@@ -1,12 +1,16 @@
+body{
+    background-color: rgb(32, 33, 34);
+}
+
 #inputCalculadora{
     font-size: 24px;
     width: 100%;
     text-align: right;
-    margin-top: 30px;
+    margin-top: 180px;
     margin-bottom: 30px;
 }
 .areaCalculadora{
-    max-width: 600px;
+    max-width: 500px;
     margin: 0 auto;
 }
 .row div{
@@ -15,4 +19,5 @@
 .row div button{
     width: 100%;
 }
+
 
